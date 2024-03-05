@@ -36,7 +36,7 @@ This BMI (Body Mass Index) Calculator is a simple Python application with a grap
 2. **Run the Application:**
    - Execute the script:
      ```bash
-     python bmi_calculator_gui.py
+     python bmi_calc.py
      ```
 
 3. **Enter Data:**

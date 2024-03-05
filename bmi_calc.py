@@ -62,9 +62,9 @@ height_entry = tk.Entry(root)
 height_entry.grid(row=1, column=1, padx=10, pady=10)
 
 calculate_button = tk.Button(root, text="Calculate BMI", command=calculate_bmi)
-calculate_button.grid(row=2, column=0, padx=25, pady=10)
+calculate_button.grid(row=2, column=0, padx=5, pady=10)
 
-clear_button = tk.Button(root, text="Clear", command=lambda: clear_fields([weight_entry, height_entry, result_label]))
+clear_button = tk.Button(root, text="Clear", command=lambda: clear_fields([weight_entry, height_entry]))
 clear_button.grid(row=2, column=1, padx=5, pady=10)
 
 result_label = tk.Label(root, text="")
